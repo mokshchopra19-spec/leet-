@@ -8,6 +8,6 @@ class Solution:
                 ls.pop()
             else:
                 return False  
-        if len(ls)==0 :
+        if not ls :
             return True  
         return False
