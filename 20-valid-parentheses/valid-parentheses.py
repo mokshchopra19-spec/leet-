@@ -7,7 +7,7 @@ class Solution:
             elif ls and ( x==")"and ls[-1]=="("  or x=="}" and ls[-1]=="{" or x=="]"and ls[-1]=="["): 
                 ls.pop()
             else:
-                return False    
-        if not ls :
+                return False  
+        if len(ls)==0 :
             return True  
         return False
